@@ -1,0 +1,74 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :359:359:p, comp label1:::p::p, space :::x}, seq l {space :6:6:p, par l {comp button1::l:p::p, comp button2:::p::p, comp button3:::p::p, comp button4:::p::p, comp button5:::p::p}, par l {seq {space :::p, comp scrollPane1:::p:356:p, par l {seq {space s:::p, par l {comp scrollPane3::::383:x, comp scrollPane4::::383:x}, space :::p}, seq t {space ::184:x, comp label2:::p:42:p, space :p:181:p}}}, seq l {space :p:143:p, comp label3:::p::p, space :::p, comp label4:::p::p, space :0:529:x}}}}"
+			"$verticalGroup": "par l {seq l {space :p:3:p, comp label1:::p::p, space ::116:x, comp scrollPane3:::p:142:p, space :p:18:p, comp label2:::p::p, space :::p, comp scrollPane4:::p:140:p, space ::16:x}, seq l {par l {seq {space :34:34:p, comp button1:::p::p, space :p:7:p, comp button2:::p::p, space :7:7:p, comp button3:::p::p, space :7:7:p, comp button4:::p::p, space :7:7:p, comp button5:::p::p}, seq l {space :p:69:p, par b {comp label4::b:p::p, comp label3::b:p::p}}}, space ::104:x, comp scrollPane1:::p::p, space :p:18:p}}"
+		} ) {
+			name: "this"
+			"visible": true
+			"minimumSize": new java.awt.Dimension( 850, 850 )
+			"$locationPolicy": 1
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "AgentName"
+				"font": new java.awt.Font( "Segoe UI", 0, 30 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "text"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JList" ) {
+					name: "list1"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "text"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane3"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane1"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane4"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea2"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Logs"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Clé publique: "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "PubKey"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 30 )
+			"size": new java.awt.Dimension( 855, 530 )
+		} )
+	}
+}
